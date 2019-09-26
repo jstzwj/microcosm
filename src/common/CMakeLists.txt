@@ -4,8 +4,8 @@ set(HEADER_DIR ${CMAKE_SOURCE_DIR}/include/microcosm)
 set(SOURCE_DIR ${CMAKE_SOURCE_DIR}/src)
 
 set(
-    MICROCOSM_SERVER_LIST
-    ${SOURCE_DIR}/server.cpp
+    MICROCOSM_COMMON_LIST
+    ${SOURCE_DIR}/common.cpp
 )
 
 # Add source to this project's executable.
