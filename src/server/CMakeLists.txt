@@ -5,7 +5,7 @@ set(SOURCE_DIR ${PROJECT_SOURCE_DIR}/src)
 
 set(
     MICROCOSM_SERVER_LIST
-    ${SOURCE_DIR}/server.cpp
+    ${SOURCE_DIR}/server/server.cpp
 )
 
 # Add source to this project's executable.

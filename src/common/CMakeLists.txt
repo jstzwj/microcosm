@@ -5,9 +5,9 @@ set(SOURCE_DIR ${PROJECT_SOURCE_DIR}/src)
 
 set(
     MICROCOSM_COMMON_LIST
-    ${SOURCE_DIR}/common.cpp
+    ${SOURCE_DIR}/common/common.cpp
 )
 
 # Add source to this project's executable.
-add_executable (common ${MICROCOSM_SERVER_LIST})
+add_executable (common ${MICROCOSM_COMMON_LIST})
 

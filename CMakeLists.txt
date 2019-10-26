@@ -8,5 +8,5 @@ project ("microcosm")
 set(CMAKE_CXX_STANDARD 17)
 
 # Include sub-projects.
-add_subdirectory ("contrib")
-add_subdirectory ("src")
+add_subdirectory (contrib)
+add_subdirectory (src)
