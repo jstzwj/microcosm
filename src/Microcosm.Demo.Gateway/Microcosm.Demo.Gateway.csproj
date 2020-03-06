@@ -5,4 +5,8 @@
     <TargetFramework>netcoreapp3.1</TargetFramework>
   </PropertyGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\Microcosm.Gateway\Microcosm.Gateway.csproj" />
+  </ItemGroup>
+
 </Project>
